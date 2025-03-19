@@ -1,6 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KAUST-Academy/introduction-to-machine-learning/HEAD)
-
-# Introduction to Machine Learning
+# Practical Tools for Data Science
 
 While most AI research focuses on applying deep learning to unstructured data such as text and images, many real-world AI applications involve applying machine learning to structured, tabular data. This course's objective is to provide students with practical, hands-on experience with state-of-the-art machine learning tools widely used in industry to solve science and engineering problems based on structured, tabular data.  
 
@@ -24,11 +22,11 @@ On completion of this course students will:
 * Train, validate, and test machine learning pipelines using non-linear models with [Scikit Learn](https://scikit-learn.org/stable/index.html). 
 * Analyze and ‘troubleshoot’ failure modes in their own work. 
 
-## Lessons
+## Lecture Materials
 
-### Module 1: Introduction to Machine Learning, Part I
+### Module 1: Practical Tools for Machine Learning
 
-#### [Lecture 1: The Machine Learning Landscape](https://kaust-my.sharepoint.com/:p:/g/personal/pughdr_kaust_edu_sa/EWo8HoVvDINJoDmQZzRbdeMBrUru9WCO6-6ZMJarjQb9Yg?e=6mjSEU)
+#### The Machine Learning Landscape ([Slides](https://kaust-my.sharepoint.com/:p:/g/personal/pughdr_kaust_edu_sa/EWo8HoVvDINJoDmQZzRbdeMBrUru9WCO6-6ZMJarjQb9Yg?e=6mjSEU))
 
 The initial lecture provides a high-level overview of the machine learning (ML) landscape and addresses the following questions.  
  
@@ -129,22 +127,7 @@ The material covered in this lecture is drawn from the following chapters of the
 | Logistic Regression with Scikit-Learn | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-4-part-2c.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-4-part-2c.ipynb) |
 | Softmax Regression with Scikit-Learn | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-4-part-2d.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-4-part-2d.ipynb) |
 
-### Module 2: Introduction to Machine Learning, Part II
-
-#### [Lecture 1: Support Vector Machines (SVMs)](https://kaust-my.sharepoint.com/:p:/g/personal/pughdr_kaust_edu_sa/EYVl3sggch1HqEKHZO8O9t4BpXwFB3NCMCM0tLue6H0T8Q?e=OVJ6pP) 
- 
-In this lecture we will cover both linear and non-linear support vector machines (SVMs) and see how to apply these algorithms to solve both classification and regression tasks.  
- 
-The material covered in this lecture is drawn from the following chapters of the reference texts. 
- 
-* Chapter 5 of [Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) 
-* Chapter 3 of ML with PyTorch and Sklearn
-
-| **Tutorial** | **Open in Google Colab** | **Open in Kaggle** |
-|--------------|:------------------------:|:------------------:|
-| SVMs (Classification) | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-5a.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-5a.ipynb)
-
-#### [Lecture 2: Decision Trees](https://kaust-my.sharepoint.com/:p:/g/personal/pughdr_kaust_edu_sa/ERMDJZ6MYP9DrxSm2EIbjA8BTGg9Z3-LG5KB4JMyVUFDNQ?e=9RrsdZ) 
+#### [Lecture 6: Decision Trees](https://kaust-my.sharepoint.com/:p:/g/personal/pughdr_kaust_edu_sa/ERMDJZ6MYP9DrxSm2EIbjA8BTGg9Z3-LG5KB4JMyVUFDNQ?e=9RrsdZ) 
  
 Tree-based models such as random forests and gradient-boosted trees are state-of-the-art ML methods for tabular data. But before we can cover these state-of-the-art methods, we need to discuss decision trees in detail. This lecture will focus on the key ideas behind decision tree implementation and how to tune decision trees to avoid overfitting. 
  
@@ -158,7 +141,7 @@ The material covered in this lecture is drawn from the following chapters of the
 | Decision Trees (Classification) | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-7a.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-7a.ipynb) |
 | Decision Trees (Regression) | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-7b.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-7b.ipynb) |
 
-#### [Lecture 3: Ensemble Methods, part I](https://kaust-my.sharepoint.com/:p:/g/personal/pughdr_kaust_edu_sa/EfOwBOSsVVFBl8GkX23wsHwB49JB0jCao1IZbIIiBT_6cw?e=j1Jyzo) 
+#### [Lecture 7: Ensemble Methods, part I](https://kaust-my.sharepoint.com/:p:/g/personal/pughdr_kaust_edu_sa/EfOwBOSsVVFBl8GkX23wsHwB49JB0jCao1IZbIIiBT_6cw?e=j1Jyzo) 
  
 Ensemble, tree-based models such as random forests and gradient-boosted trees are state-of-the-art ML methods for tabular data. In this lecture we will cover these approaches in detail. We will discuss the key ideas behind ensemble methods such as voting, bagging, and pasting and how to implement these approaches in practice to solve classification and regression tasks via random forests. 
  
@@ -171,7 +154,7 @@ The material covered in this lecture is drawn from the following chapters of the
 |--------------|:------------------------:|:------------------:|
 | Ensemble Methods, part I |  [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-8-part-1a.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-8-part-1a.ipynb) |
 
-#### [Lecture 4: Ensemble Methods, part II](https://kaust-my.sharepoint.com/:p:/g/personal/pughdr_kaust_edu_sa/EZgXMV7npzlKrfWH1A8v2loBMPlAkYLOFpD6iOBw27A81w?e=Ni0dY0) 
+#### [Lecture 8: Ensemble Methods, part II](https://kaust-my.sharepoint.com/:p:/g/personal/pughdr_kaust_edu_sa/EZgXMV7npzlKrfWH1A8v2loBMPlAkYLOFpD6iOBw27A81w?e=Ni0dY0) 
  
 This lecture continues covering tree-based ensemble techniques with an in-depth discussion of gradient boosted trees. Gradient boosted trees are the most widely used ML algorithms in industry and continue to deliver state-of-the-art performance on tabular data problems and time-series forecasting problems. Two popular implementations of gradient boosted trees will be discussed: XGBoost and CatBoost. 
  
@@ -185,35 +168,7 @@ The material covered in this lecture is drawn from the following chapters of the
 | Boosting Methods (Scikit-Learn) |  [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-8-part-2a.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-8-part-2a.ipynb) |
 | Boosting Methods (CatBoost, LightGBM, XGBoost) |  [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-8-part-2b.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/lecture-8-part-2b.ipynb) |
 
-### Module 3: Introduction to Machine Learning, Part III
-
-#### [Lecture 1: Dimensionality Reduction](https://kaust-my.sharepoint.com/:p:/g/personal/pughdr_kaust_edu_sa/EbBg__P2wu5Gp4BZ3iMcv-0BlVAa3j2SWz7rJjRj5udBZQ?e=IDyQTX) 
- 
-Many ML systems suffer from the curse of dimensionality: the training time of many ML systems increases rapidly as the number of features in the dataset increases. This lecture covers the key ideas of dimensionality reduction and various algorithms for performing dimensionality reduction such as Principal Components Analysis (PCA), Locally Linear Embedding (LLE), et al. Tradeoffs between the various methods will be discussed. 
- 
-The material covered in this lecture is drawn from the following chapters of the reference texts. 
- 
-* Chapter 8 of [Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) 
-* Chapter 5 of ML with PyTorch and Sklearn 
-
-| **Tutorial** | **Open in Google Colab** | **Open in Kaggle** |
-|--------------|:------------------------:|:------------------:|
-| Dimensionality Reduction | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/module-3-lecture-1.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/module-3-lecture-1.ipynb)
-
-#### [Lecture 2: Unsupervised Learning Techniques](https://kaust-my.sharepoint.com/:p:/g/personal/pughdr_kaust_edu_sa/EV1cUHcyAwtHqWsr4IdidxUBRclSLycFCPQusvkHJ48XdA?e=X034dA) 
- 
-This lecture will cover the key ideas behind unsupervised learning techniques and will include an in-depth discussion of the K-means algorithm. Other approaches to unsupervised learning will be discussed such as DBSCAN, and Gaussian Mixture Models (GMMs).  
- 
-The material covered in this lecture is drawn from the following chapters of the reference texts. 
- 
-* Chapter 9 of [Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) 
-* Chapter 10 of ML with PyTorch and Sklearn
-
-| **Tutorial** | **Open in Google Colab** | **Open in Kaggle** |
-|--------------|:------------------------:|:------------------:|
-| Unsupervised Learning | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/module-3-lecture-2.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/davidrpugh/machine-learning-for-tabular-data/blob/main/notebooks/module-3-lecture-2.ipynb)
-
-### Module 4: Introduction to Machine Learning, Part IV
+### Module 2: Practical Tools for Deep Learning
 
 #### Lecture 1: Introduction to Artificial Neural Networks 
  
@@ -237,12 +192,6 @@ The material covered in this lecture is drawn from the following chapters of the
  
 * Chapter 11 of [Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) 
 * Chapter 12 of ML with PyTorch and Sklearn 
-
-### Module 5:
-
-#### Lecture 1: Deploying machine learning pipelines, part 1 
- 
-A trained ML system that is never deployed is one of little practical value. Deployment of ML systems presents some unique challenges that are rarely discussed in university courses. We will spend the last lecture of the course learning how to deploy ML algorithms culminating with students learning to embed and deploy their own ML systems as Gradio applications on HuggingFace Spaces. 
 
 ## Assessment
 
